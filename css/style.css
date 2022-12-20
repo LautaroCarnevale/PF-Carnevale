@@ -145,14 +145,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 .section2__div__div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: 800px;
   text-align: center;
 }
 
@@ -166,12 +168,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 200px;
 }
 
 .section2__div__div__div__p {
   font-size: 18px;
   margin-top: 20px;
+}
+@media screen and (max-width: 780px) {
+
+  .section2__div {
+    margin-bottom: 100px;
+  }
+  
+  .section2__div__div {
+    width: 100%;
+  }
+  .section2__div__div__div{
+    padding: 10px;
+  }
+
 }
 
 
