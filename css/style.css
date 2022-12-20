@@ -17,11 +17,14 @@ body {
 
 
 
-#color__navbar-inicio{
+#color__navbar-inicio {
   background-color: #E7F9A9;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
-.navbar-img{
+.navbar-img {
   margin-left: 20px;
   width: 250px;
   height: 40px;
@@ -82,7 +85,7 @@ body {
 .section1__div__h1 {
   color: #E7F9A9;
   font-size: 70px;
-  font-family: 'Playfair Display', serif; 
+  font-family: 'Playfair Display', serif;
 }
 
 .section1__div__p {
@@ -118,11 +121,14 @@ body {
   }
 }
 
+@media screen and (max-width: 800px) {}
+
 
 /*----- Section 2 main index ----- */
 
 
 .section2__div {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -179,7 +185,7 @@ body {
   margin-top: 400px;
   font-size: 80px;
   color: #fff;
-  font-family: 'Playfair Display', serif; 
+  font-family: 'Playfair Display', serif;
 }
 
 #slide-top {
@@ -220,19 +226,19 @@ body {
 
 /*----- Section 2 main galeria ----- */
 
-.section2__div-galeria{
+.section2__div-galeria {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 50px;
 }
 
-.section2__div__h2-galeria{
+.section2__div__h2-galeria {
   font-size: 45px;
   color: #9A9B73;
 }
 
-.section2__div__p-galeria{
+.section2__div__p-galeria {
   font-size: 20px;
 }
 
@@ -288,10 +294,227 @@ body {
 
 
 
-/*----- footer ----- */
+/*--------------- footer --------------- */
+
 
 
 footer {
+  display: flex;
+  background-color: #3D0814;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contenedor-footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.contenedor-footer-2{
+  width: 890px;
+}
+
+.footer__div{
+  display: flex;
+  justify-content: center;
+}
+
+.footer__div__div{
+  display: flex;
+  width: 100%;
+  justify-content:space-between;
+}
+
+/*----- texto de la pregunta ¿por que? - footer ----- */
+
+.footer__div__div__div{
+  width: 500px;
+}
+
+.footer__div__div__div__h4{
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer__div__div__div__p {
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: justify;
+  font-size: 18.5px;
+  line-height: 25px;
+  color: #737373;
+}
+
+
+/*----- Enaleces rapidos - footer ----- */
+
+.footer__div__div__div-2__h5{
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer__div__div-2__ul__a {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18.5px;
+  color: #737373;
+}
+
+.footer__hr {
+  width: 100%;
+  border-top-color: #bbb;
+  opacity: 0.5
+}
+
+.footer__div__div-3{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.footer__div__div-2__p{
+  font-family: Arial, sans-serif;
+  color: #737373;
+  font-size: 14px;
+}
+
+.footer__div__div-2__p2 {
+  font-family: Arial, sans-serif;
+  color: #737373;
+  font-size: 14px;
+}
+
+.footer__div__p__a {
+  font-family: Arial, sans-serif;
+  color: #737373;
+}
+
+/*--------------- responsive - footer --------------- */
+
+@media screen and (max-width: 780px) {
+  /*--------------- footer --------------- */
+
+footer {
+  display: flex;
+  background-color: #3D0814;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contenedor-footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+}
+
+.contenedor-footer-2{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__div{
+  display: flex;
+  justify-content: center;
+}
+
+.footer__div__div{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+/*----- texto de la pregunta ¿por que? - footer ----- */
+
+.footer__div__div__div{
+  width: 100%;
+}
+
+.footer__div__div__div__h4{
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer__div__div__div__p {
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: justify;
+  font-size: 18.5px;
+  line-height: 25px;
+  color: #737373;
+}
+
+
+/*----- Enaleces rapidos - footer ----- */
+
+.footer__div__div__div-2{
+  width: 100%;
+}
+
+.footer__div__div__div-2__h5{
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer__div__div-2__ul__a {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18.5px;
+  color: #737373;
+}
+
+.footer__hr {
+  width: 100%;
+  border-top-color: #bbb;
+  opacity: 0.5
+}
+
+.footer__div__div-3{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.footer__div__div-2__p{
+  font-family: Arial, sans-serif;
+  color: #737373;
+  font-size: 14px;
+}
+
+.footer__div__div-2__p2 {
+  font-family: Arial, sans-serif;
+  color: #737373;
+  font-size: 14px;
+}
+
+.footer__div__p__a {
+  font-family: Arial, sans-serif;
+  color: #737373;
+}
+}
+
+
+
+
+/* footer {
   position: relative;
   background-color: #3D0814;
   width: 100%;
@@ -327,6 +550,7 @@ footer {
 
 #footer__div__div__div__p {
   font-family: 'Alegreya Sans', sans-serif;
+  width: 100%;
   text-align: justify;
   font-size: 18.5px;
   line-height: 25px;
@@ -401,3 +625,124 @@ footer {
 .footer__div__p__a:hover {
   color: blue;
 }
+
+@media screen and (max-width:780px) {
+
+  footer {
+    position: relative;
+    flex-direction: column;
+    background-color: #3D0814;
+    width: 100%;
+    height: 700px;
+  }
+
+  #footer__div {
+    display: flex;
+    justify-content: center;
+  }
+
+  #footer__div__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 890px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+
+  #footer__div__div__div {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  #footer__div__div__div__h4 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+
+  #footer__div__div__div__p {
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: justify;
+    font-size: 18.5px;
+    line-height: 25px;
+    color: #737373;
+  }
+
+
+  
+  #footer__div__div__div-2 {
+    width: 100%;
+  }
+
+  #footer__div__div__div-2__h5 {
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+
+  .footer__div__div-2__ul__a {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18.5px;
+    color: #737373;
+  }
+
+  .footer__div__div-2__ul {
+    margin-bottom: 5px;
+  }
+
+  .footer__div__div-2__ul__a:hover {
+    color: blue;
+  }
+
+  #footer__hr {
+    width: 100%;
+    border-top-color: #bbb;
+    opacity: 0.5;
+  }
+
+
+  #footer__div__div-3 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #footer__div__div__div-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #footer__div__div-2__p {
+    font-family: Arial, sans-serif;
+    color: #737373;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #footer__div__div-2__p2 {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #737373;
+  }
+
+  .footer__div__p__a {
+    font-family: Arial, sans-serif;
+    color: #737373;
+  }
+
+  .footer__div__p__a:hover {
+    color: blue;
+  }
+
+} */
