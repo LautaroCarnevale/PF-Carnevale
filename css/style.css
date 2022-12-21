@@ -504,21 +504,114 @@ body {
 
 /*----- Section 2 main contacto ----- */
 
-.section2__form__div{
+form {
   display: flex;
   justify-content: center;
   width: 100%;
-
+  height: 100%;
 }
 
-
-.section2__form__div__div{
+.contenedor-contacto{
+  display: flex;
+  width: 1600px;
+  height: 800px;
+}
+.contenedor-contacto-2{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px;
-  width: 1000px;
-  background-color: #90A955;
+  height: 100%;
+}
+
+.section2__form__div{
+  display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+.section2__form__div__div{
+  display: grid;
+  grid-template-areas:  "h3 h3"
+                        "nombre tel"
+                        "mail tipo"
+                        "cantidad fecha"
+                        "comentario comentario"
+                        "boton boton";
+  background-color: #DCDFEA;
+  width: 800px;
+  height: 100%;
+  padding: 20px;
+}
+.form__h3{
+  grid-area: h3;
+}
+
+#nombre-grid{
+  grid-area: nombre;
+}
+
+#tel-grid{
+  grid-area: tel;
+}
+
+#mail-grid{
+  grid-area: mail;
+}
+
+#tipo-grid{
+  grid-area: tipo;
+}
+
+#cantidad-grid{
+  grid-area: cantidad;
+}
+
+#fecha-grid{
+  grid-area: fecha;
+}
+
+#comentarios-grid{
+  grid-area: comentario;
+}
+
+.form__texto{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 18px;
+}
+
+.form-boton{
+  grid-area: boton;
+}
+
+.section2__form__div__p{
+  color: #485e74;
+}
+
+
+.section1__form__div__div__imput{
+  width: 100%;
+  padding: 6px;
+  border: solid 1px #627EDC;
+  border-radius: 4px;
+}
+
+.section1__form__div__div__textaerea{
+  width: 100%;
+  height: 100px;
+  padding: 6px;
+  border: solid 1px #627EDC;
+  resize:none;
+  border-radius: 4px;
+}
+
+.section1__form__div__div__imput-boton{
+  width: 100%;
+  padding: 7px;
+  margin-top: 10px;
+  background-color: #627EDC;
 }
 
 
