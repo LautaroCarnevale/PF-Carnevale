@@ -509,18 +509,27 @@ form {
   justify-content: center;
   width: 100%;
   height: 100%;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .contenedor-contacto{
   display: flex;
-  width: 1600px;
-  height: 800px;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 .contenedor-contacto-2{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100%;
+}
+.section2__form__div__div__h2{
+  font-family: 'Lato', sans-serif;
+  color: #AE943D;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-bottom: 35px;
 }
 
 .section2__form__div{
@@ -540,12 +549,21 @@ p {
                         "comentario comentario"
                         "boton boton";
   background-color: #DCDFEA;
-  width: 800px;
-  height: 100%;
-  padding: 20px;
+  width: 758px;
+  height: 570px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px 0 0 4px;
 }
 .form__h3{
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  position: relative;
+  color: #485e74;
+  top: 20px;
   grid-area: h3;
+  margin-left: 10px;
+  font-size: 20px;
 }
 
 #nombre-grid{
@@ -593,7 +611,7 @@ p {
 
 .section1__form__div__div__imput{
   width: 100%;
-  padding: 6px;
+  padding: 9px;
   border: solid 1px #627EDC;
   border-radius: 4px;
 }
@@ -613,6 +631,67 @@ p {
   margin-top: 10px;
   background-color: #627EDC;
 }
+
+
+/*----- Section 2 -- segunda parte de form  main contacto ----- */
+
+.section1__form__div-informacion{
+  display: flex;
+  justify-content: flex-start;
+  width: 379px;
+  background-color: #C3C9DD;
+  border-radius: 0 4px 4px 0;
+}
+
+.section1__form__div__div-informacion{
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.section1__form__div__div__h3-informacion{
+  margin-bottom: 15px;
+}
+
+.section1__form__div__div__div-informacion{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.section1__form__div__div__p-informacion{
+  margin-top: 5px;
+}
+
+.img-icon-contacto{
+  width: 18px;
+  margin-right: 5px;
+}
+
+.section1__form__div__div__h4-informacion{
+  margin-top: 20px;
+}
+
+.section1__form__div__div__div-informacion{
+  display: flex;
+  flex-direction: row;
+}
+
+.section1__form__div__div__icon-informacion{
+  width: 40px;
+  
+}
+
+.a__img-icono-informacion{
+  width: 100%;
+}
+
+#icono__instagram-informacion {
+  margin-left: 20px;  
+}
+
 
 
 
