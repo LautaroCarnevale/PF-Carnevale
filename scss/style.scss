@@ -1,0 +1,22 @@
+@import 'utilities/variables';
+@import 'utilities/functions';
+@import 'utilities/mixins';
+
+@import "./base/reset";
+@import "./base/typo";
+@import "./base/animations";
+
+@import "./components/buttons";
+
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/forms";
+
+@import "./pages/inicio";
+@import "./pages/galeria";
+@import "./pages/sobrenosotros";
+@import "./pages/ubicacion";
+@import "./pages/contacto";
+
+@import "./vendors/bootstrap";

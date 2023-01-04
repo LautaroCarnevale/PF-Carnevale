@@ -1,0 +1,75 @@
+/*--------------- Ubicacion --------------- */
+
+/*----- Section 1 main ubicacion ----- */
+.section1__div-ubicacion {
+    background-image: url(../../assets/img/mapa-fondo-ubicacion.jpg);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1__div__h1-ubicacion {
+    margin-top: 400px;
+    font-size: 80px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+}
+
+/*----- Section 2 main ubicacion ----- */
+
+.section2__div-ubi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.section2__div__div-ubi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section2__div__div__div-ubi {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.section2__div__div__div__h2-ubi {
+    font-size: 45px;
+    margin-bottom: 75px;
+    color: #AE943D;
+    padding: 20px 10px 20px 10px;
+    border: solid 5px #EBEBEC;
+}
+
+.section2__div__div__maps-ubi {
+    width: 950px;
+    height: 400px;
+}
+
+.section2__div__div__div-2-ubi {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.section2__div__div__div__h3-ubi {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: #AE943D;
+    padding: 0;
+    border-bottom: solid 5px #EBEBEC;
+}
+
+@media screen and (max-width: 780px) {
+    .section2__div__div__maps-ubi {
+        width: 100%;
+    }
+}
