@@ -35,22 +35,6 @@
     }
 }
 
-@media screen and (max-width: 780px) {
-
-    .section1__div {
-        background-image: url(../../assets/img/pexels-craig-adderley-2306277.jpg);
-        width: 100%;
-        height: 650px;
-    }
-
-
-    .section1__div__div-icon-flechita {
-        top: 50px;
-    }
-
-}
-
-
 /*----- Section 2 main index ----- */
 
 
@@ -89,19 +73,28 @@
     }
 }
 
-
 @media screen and (max-width: 780px) {
 
-    .section2__div {
-        margin-bottom: 100px;
-    }
+	.section1__div {
+		background-image: url(../../assets/img/pexels-craig-adderley-2306277.jpg);
+		width: 100%;
+		height: 650px;
 
-    .section2__div__div {
-        width: 100%;
-    }
+		.section1__div__div-icon-flechita {
+			top: 50px;
+		}
+	}
 
-    .section2__div__div__div {
-        padding: 10px;
-    }
+	.section2__div {
+		margin-bottom: 100px;
+
+		.section2__div__div {
+			width: 100%;
+			
+			.section2__div__div__div {
+				padding: 10px;
+			}
+		}
+	}
 
 }

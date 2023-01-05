@@ -18,53 +18,22 @@
     }
 }
 
-/*----- Section 2 main contacto ----- */
+
 
 
 @media screen and (max-width: 780px) {
-    /*--------------- Contacto --------------- */
-
-    /*----- Section 2 main contacto ----- */
-
     form {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        margin-top: 150px;
-        margin-bottom: 150px;
 
         .contenedor-contacto {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            height: 100%;
             margin: 10px;
 
             .contenedor-contacto-2 {
-                display: flex;
-                flex-direction: column;
                 width: 100%;
-                height: 100%;
-
-                .section2__form__div__div__h2 {
-                    font-family: 'Lato', sans-serif;
-                    color: #AE943D;
-                    font-weight: 600;
-                    letter-spacing: 5px;
-                    margin-bottom: 35px;
-                }
 
                 .section2__form__div {
-                    display: flex;
                     flex-direction: column;
 
-                    p {
-                        margin: 0;
-                    }
-
                     .section2__form__div__div {
-                        display: grid;
                         grid-template-areas: "h3"
                             "nombre"
                             "tel"
@@ -75,145 +44,23 @@
                             "comentario"
                             "comentario"
                             "boton";
-                        background-color: #DCDFEA;
                         width: 100%;
                         height: 100%;
                         padding-left: 0px;
                         padding-right: 0px;
-                        border-radius: 4px 0 0 4px;
-
-                        .form__h3 {
-                            font-family: 'Lato', sans-serif;
-                            font-weight: 600;
-                            position: relative;
-                            color: #485e74;
-                            top: 20px;
-                            grid-area: h3;
-                            margin-left: 10px;
-                            font-size: 20px;
-                        }
-    
-                        #nombre-grid {
-                            grid-area: nombre;
-                        }
-    
-                        #tel-grid {
-                            grid-area: tel;
-                        }
-    
-                        #mail-grid {
-                            grid-area: mail;
-                        }
-    
-                        #tipo-grid {
-                            grid-area: tipo;
-                        }
-    
-                        #cantidad-grid {
-                            grid-area: cantidad;
-                        }
-    
-                        #fecha-grid {
-                            grid-area: fecha;
-                        }
-    
-                        #comentarios-grid {
-                            grid-area: comentario;
-                        }
-    
-                        .form__texto {
-                            margin-left: 10px;
-                            margin-right: 10px;
-                            margin-top: 18px;
-
-                            .section2__form__div__p {
-                                color: #485e74;
-                            }
-        
-        
-                            .section1__form__div__div__imput {
-                                width: 100%;
-                                padding: 9px;
-                                border: solid 1px #627EDC;
-                                border-radius: 4px;
-                            }
-
-                            .section1__form__div__div__textaerea {
-                                width: 100%;
-                                height: 100px;
-                                padding: 6px;
-                                border: solid 1px #627EDC;
-                                resize: none;
-                                border-radius: 4px;
-                            }
-                        }
-    
-                        .form-boton {
-                            grid-area: boton;
-
-                            .section1__form__div__div__imput-boton {
-                                width: 100%;
-                                padding: 7px;
-                                margin-top: 10px;
-                                background-color: #627EDC;
-                            }
-                        }
                     }
 
                     /*----- Section 2 -- segunda parte de form  main contacto ----- */
 
                     .section2__form__div-informacion {
-                        display: flex;
-                        justify-content: flex-start;
                         width: 100%;
-                        height: 400px;
-                        background-color: #C3C9DD;
-                        border-radius: 0 4px 4px 0;
-
-                        .section2__form__div__div-informacion {
-                            font-family: 'Lato', sans-serif;
-                            display: flex;
-                            flex-direction: column;
-                            margin-top: 30px;
-                            margin-left: 40px;
-
-                            .section2__form__div__div__h3-informacion {
-                                margin-bottom: 15px;
-                            }
-
-                            .section2__form__div__div__p-informacion {
-                                margin-top: 5px;
-                            }
-        
-                            .img-icon-contacto {
-                                width: 18px;
-                                margin-right: 5px;
-                            }
-
-                            .section2__form__div__div__h4-informacion {
-                                margin-top: 20px;
-                            }
-        
-                            .section2__form__div__div__div-informacion {
-                                display: flex;
-                                flex-direction: row;
-
-                                .section2__form__div__div__icon-informacion {
-                                    width: 40px;
-                                    
-                                    .a__img-icono-informacion {
-                                        width: 100%;
-                                    }
-                                }
-                                
-                                #icono__instagram-informacion {
-                                    margin-left: 20px;
-                                }
-                            } 
-                        }
+                        height: 500px;
                     } 
                 }
             }
         }
     }
 }
+
+
+

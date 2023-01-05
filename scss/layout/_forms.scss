@@ -1,6 +1,5 @@
 form {
     display: flex;
-    justify-content: center;
     width: 100%;
     height: 100%;
     margin-top: 150px;
@@ -8,14 +7,13 @@ form {
 
     .contenedor-contacto {
         display: flex;
-        justify-content: center;
         width: 100%;
-        height: 100%;
+        justify-content: center;
+
 
         .contenedor-contacto-2 {
             display: flex;
             flex-direction: column;
-            height: 100%;
 
             .section2__form__div__div__h2 {
                 font-family: 'Lato', sans-serif;
@@ -27,10 +25,8 @@ form {
 
             .section2__form__div {
                 display: flex;
-
-                p {
-                    margin: 0;
-                }
+                width: 100%;
+                height: 100%;
 
                 .section2__form__div__div {
                     display: grid;
@@ -46,6 +42,7 @@ form {
                     height: 570px;
                     padding-left: 20px;
                     padding-right: 20px;
+                    padding-bottom: 20px;
                     border-radius: 4px 0 0 4px;
 
                     .form__h3 {
@@ -123,50 +120,87 @@ form {
                         margin-top: 10px;
                         background-color: #627EDC;
                     }
+                }
 
-                    /*----- Section 2 -- segunda parte de form  main contacto ----- */
+                .section2__form__div-informacion {
+                    display: flex;
+                    justify-content: flex-start;
+                    width: 300px;
+                    background-color: #C3C9DD;
+                    border-radius: 0 4px 4px 0;
 
-                    .section2__form__div-informacion {
+
+
+                    .section2__form__div__div-informacion {
                         display: flex;
-                        justify-content: flex-start;
-                        width: 379px;
-                        background-color: #C3C9DD;
-                        border-radius: 0 4px 4px 0;
+                        flex-direction: column;
 
-                        .section2__form__div__div-informacion {
+                        .section2__form__div__div__h4-informacion {
                             font-family: 'Lato', sans-serif;
+                            font-weight: 600;
+                            font-size: 25px;
+                            color: #485e74;
+                            margin-left: 20px;
+                            margin-top: 10px;
+                        }
+
+                        .section2__form__div__div__div-datos-de-contacto {
                             display: flex;
                             flex-direction: column;
-                            margin-top: 30px;
-                            margin-left: 40px;
+                            width: 100%;
 
-                            .section2__form__div__div__h3-informacion {
-                                margin-bottom: 15px;
+                            .section2__form__div__div__h5-datos-de-contacto {
+                                font-family: 'Lato', sans-serif;
+                                font-weight: 600;
+                                font-size: 20px;
+                                color: #485e74;
+                                margin-left: 10px;
+                                margin-top: 10px;
+                            } 
+
+                            .section2__form__div__div__div__div-datos-de-contacto {
+                                display: flex;
+                                margin-left: 10px;
+                                margin-top: 10px;
+                                width: 100%;
+
+                                .form__datos-de-contcto__icon {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+
+                                .section2__form__div__div__div__div__p-datos-de-contacto{
+                                    
+                                    color: #485e74;
+                                    margin-left: 5px;
+                                }
+                            }
+                        }
+
+                        .section2__form__div__div__div__div-redes{
+                            display: flex;
+                            flex-direction: column;
+                            
+
+                            .section2__form__div__div__div__div__h6-redes{
+                                font-family: 'Lato', sans-serif;
+                                font-weight: 600;
+                                font-size: 20px;
+                                color: #485e74;
+                                margin-left: 10px;
+                                margin-top: 10px;
                             }
 
-                            .section2__form__div__div__p-informacion {
+
+                            .section2__form__div__div__div__div__div-redes{
+                                display: flex;
                                 margin-top: 5px;
 
-                                .img-icon-contacto {
-                                    width: 18px;
-                                    margin-right: 5px;
-                                }
-                            }
-
-                            .section2__form__div__div__h4-informacion {
-                                margin-top: 20px;
-                            }
-
-                            .section2__form__div__div__div-informacion {
-                                display: flex;
-                                flex-direction: row;
-
-                                .section2__form__div__div__icon-informacion {
+                                .form__redes__icon{
                                     width: 40px;
+                                    height: 40px;
+                                    margin-left: 10px;
                                 }
-                            }
-                            #icono__instagram-informacion {
-                                margin-left: 20px;
                             }
                         }
                     }

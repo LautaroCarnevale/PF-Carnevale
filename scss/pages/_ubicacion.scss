@@ -46,9 +46,14 @@
 				border: solid 5px #EBEBEC;
 			}
 		}
-		.section2__div__div__maps-ubi {
-			width: 950px;
+		.section2__div__div__div__maps-ubi{
+			width: 900px;
 			height: 400px;
+		}
+
+		.section2__div__div__iframe-ubi{
+			width: 100%;
+			height: 100%;
 		}
 		
 		.section2__div__div__div-2-ubi {
@@ -68,10 +73,27 @@
 	}
 }
 
-
+// ----- |Media cuery de ubicacion| -----
 
 @media screen and (max-width: 780px) {
-    .section2__div__div__maps-ubi {
-        width: 100%;
-    }
+
+	.section2__div-ubi {
+
+		.section2__div__div-ubi {
+
+			.section2__div__div__div__maps-ubi{
+				width: 100%;
+			}
+	
+			.section2__div__div__iframe-ubi{
+				width: 100%;
+				height: 100%;
+			}
+			
+			
+		}
+	}
+
 }
+
+
