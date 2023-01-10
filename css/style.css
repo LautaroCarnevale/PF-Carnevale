@@ -471,19 +471,27 @@ form {
       float: left;
       background-color: #ab9343; }
     .section2__div-nosotros .section2__div__div-nosotros .section2__div__div__buttom-nosotros {
-      padding: 10px 15px 10px 15px;
-      font-size: 19px;
-      text-align: center;
+      color: #3e3b44;
       border: solid 3px #3e3b44;
-      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin: 15px 0 20px 0;
       width: 261px;
-      color: #3e3b44;
+      height: auto;
       list-style: none;
       text-decoration: none; }
+      .section2__div-nosotros .section2__div__div-nosotros .section2__div__div__buttom-nosotros .section2__div__div__buttom__p-nosotros {
+        margin: 0;
+        padding: 15px 26px 15px 26px;
+        font-size: 19px;
+        font-weight: 600; }
 
 .section2__div__div__buttom-nosotros:hover {
-  color: #3e3b44; }
+  background-color: #3e3b44; }
+
+.section2__div__div__buttom__p-nosotros:hover {
+  color: #fff; }
 
 @media screen and (max-width: 780px) {
   .section2__div-nosotros {
