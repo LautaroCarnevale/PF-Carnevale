@@ -293,7 +293,7 @@ form {
 /*--------------- INDEX = inicio --------------- */
 /*----- Section 1 main index ----- */
 .section1__div {
-  background-image: url(../../assets/img/fondo-section1-inicio.jpg);
+  background-image: url(../assets/img/fondo-section1-inicio.jpg);
   width: 100%;
   height: 950px;
   display: flex;
@@ -309,7 +309,7 @@ form {
     font-size: 30px; }
   .section1__div .section1__div__div-icon-flechita {
     position: relative;
-    background-image: url(../../assets/img/icono-de-flechita.png);
+    background-image: url(../assets/img/icono-de-flechita.png);
     top: 310px;
     width: 26px;
     height: 26px;
@@ -346,7 +346,7 @@ form {
 
 @media screen and (max-width: 780px) {
   .section1__div {
-    background-image: url(../../assets/img/fondo-section1-inicio.jpg);
+    background-image: url(../assets/img/fondo-section1-inicio.jpg);
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
@@ -363,7 +363,7 @@ form {
 /*--------------- galeria --------------- */
 /*----- Section 1 main galeria ----- */
 .section1__div-galeria {
-  background-image: url(../../assets/img/fondo-galeria.jpg);
+  background-image: url(../assets/img/fondo-galeria.jpg);
   width: 100%;
   height: 500px;
   display: flex;
@@ -389,7 +389,7 @@ form {
 
 /*----- Section 3 main galeria ----- */
 .section3-galeria {
-  background-image: url(../../assets/img/fondo-galeria-fotos.jpg); }
+  background-image: url(../assets/img/fondo-galeria-fotos.jpg); }
   .section3-galeria .section3__div-contenedrogeneral-galeria {
     display: flex;
     flex-direction: column;
@@ -438,7 +438,7 @@ form {
 /*--------------- Sobre Nosotros --------------- */
 /*----- Section 1 main Nosotros ----- */
 .section1__div-nosotros {
-  background-image: url(../../assets/img/fondo-section1.jpg);
+  background-image: url(../assets/img/fondo-section1.jpg);
   width: 100%;
   height: 500px;
   display: flex;
@@ -505,7 +505,7 @@ form {
 /*--------------- Ubicacion --------------- */
 /*----- Section 1 main ubicacion ----- */
 .section1__div-ubicacion {
-  background-image: url(../../assets/img/mapa-fondo-ubicacion.jpg);
+  background-image: url(../assets/img/mapa-fondo-ubicacion.jpg);
   width: 100%;
   height: 500px;
   display: flex;
@@ -567,7 +567,7 @@ form {
 /*--------------- Contacto --------------- */
 /*----- Section 1 main contacto ----- */
 .section1__div-contacto {
-  background-image: url(../../assets/img/img-fondo-contacto.png);
+  background-image: url(../assets/img/img-fondo-contacto.png);
   width: 100%;
   height: 500px;
   display: flex;
