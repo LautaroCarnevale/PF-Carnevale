@@ -67,7 +67,7 @@ body {
 /*--------------- footer --------------- */
 footer {
   display: flex;
-  background-color: #3D0814;
+  background-color: #202124;
   flex-direction: column;
   width: 100%; }
   footer .contenedor-footer {
@@ -158,7 +158,7 @@ form {
   width: 100%;
   height: 100%;
   margin-top: 150px;
-  margin-bottom: 150px; }
+  margin-bottom: 50px; }
   form .contenedor-contacto {
     display: flex;
     width: 100%;
@@ -578,6 +578,30 @@ form {
     font-size: 80px;
     color: #000;
     font-family: 'Playfair Display', serif; }
+
+.acordion-servicio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px; }
+  .acordion-servicio .acordion-servicio-2 {
+    width: 1058px;
+    padding: 0; }
+    .acordion-servicio .acordion-servicio-2 .accordion-item {
+      background-color: #f0f3ff; }
+      .acordion-servicio .acordion-servicio-2 .accordion-item .parrafos__acordion {
+        margin: 10px 0 10px 0; }
+      .acordion-servicio .acordion-servicio-2 .accordion-item .accordion-button {
+        background-color: #C3C9DD; }
+      .acordion-servicio .acordion-servicio-2 .accordion-item .boton__div__acordion {
+        display: flex;
+        justify-content: flex-end; }
+        .acordion-servicio .acordion-servicio-2 .accordion-item .boton__div__acordion .boton__acordion {
+          margin-top: 25px;
+          padding: 5px 20px 5px 20px;
+          background-color: #627EDC;
+          border-color: #627EDC;
+          border-radius: 5px; }
 
 @media screen and (max-width: 780px) {
   form .contenedor-contacto {

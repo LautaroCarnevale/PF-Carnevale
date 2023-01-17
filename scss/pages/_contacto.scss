@@ -18,6 +18,42 @@
     }
 }
 
+.acordion-servicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+    .acordion-servicio-2 {
+        width: 1058px;
+        padding: 0;
+
+        .accordion-item {
+            background-color: #f0f3ff;
+
+            .parrafos__acordion{
+                margin: 10px 0 10px 0;
+            }
+
+            .accordion-button {
+                background-color: #C3C9DD;
+            }
+
+            .boton__div__acordion {
+                display: flex;
+                justify-content: flex-end;
+
+                .boton__acordion {
+                    margin-top: 25px;
+                    padding: 5px 20px 5px 20px;
+                    background-color: #627EDC;
+                    border-color: #627EDC;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
 
 
 
@@ -55,12 +91,9 @@
                     .section2__form__div-informacion {
                         width: 100%;
                         height: 500px;
-                    } 
+                    }
                 }
             }
         }
     }
 }
-
-
-
